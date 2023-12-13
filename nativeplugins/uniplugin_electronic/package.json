@@ -1,0 +1,20 @@
+{
+    "name": "uniplugin_electronic",
+    "id": "uniplugin_electronic",
+    "version": "1.0.0",
+    "description": "SUNMI电子称uniapp插件",
+    "_dp_type":"nativeplugin",
+    "_dp_nativeplugin":{
+        "android": {
+			"integrateType":"aar",
+            "plugins": [
+                {
+                    "type": "module",
+                    "name": "electronic",
+                    "class": "com.example.uniplugin_electronic.ElectronicModule"
+                }
+                
+            ]
+        }
+    }
+}
